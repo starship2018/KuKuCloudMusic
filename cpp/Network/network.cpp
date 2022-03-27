@@ -32,7 +32,6 @@ void Network::getUrlResource(QString url, QString params)
 void Network::getUrlResource2(QString url, QString params)
 {
     QNetworkRequest req;
-
     req.setUrl(url);
     networkManager->get(req);
 }
